@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+textarea{
+  width: 100%;
+  resize: none;
+}
+ .alert-success{
+  display: block;
+  background-color: green;
+  padding: 5px;
+  color: white;
+ }
+.alert-error{
+  background-color: red;
+}
+.tab-body {
+  position: relative;
+  display: none;
+
+
+}
+.tab-body.active {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: black;
+	color: white;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+ ul{
+ 	padding: 0;
+ 	margin: 0;
+}
+ul li{
+	display: block;
+	float: left;
+	width: 125px;
+	cursor: pointer;
+}
+
+h1{
+	margin: 0;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 40px;
+  background-color: white;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+b{
+	margin-bottom: 10px;
+}
+
+form{
+	 box-shadow: 1px 1px 12px #555;
+	padding: 20px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}*
